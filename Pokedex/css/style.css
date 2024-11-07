@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body {
+  background-color: green;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 475px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+#imgPokedex {
+  top: 10%;
+  position: absolute;
+  width: 100%;
+  min-width: 300px;
+  bottom: 15%;
+  left: 0%;
+}
+main {
+  width: 100%;
+  height: 100%;
+}
+#imgPokemon {
+  top: 45%;
+  left: 30%;
+  position: absolute;
+}
+.form-busca {
+  position: absolute;
+  top: 62%;
+  left: 0%;
+  width: 100%;
+}
+#inputText {
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 6px;
+  box-shadow: -3px 4px 0 gray;
+}
+.pokemon-data1 {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+}
+.pokemon-data2 {
+  position: absolute;
+  top: 75%;
+  left: 19%;
+}
+.bottons {
+  position: absolute;
+  left: 37%;
+  bottom: 5%;
+  display: flex;
+  gap: 15%;
+
+}
+.bottons button{
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: -3px 4px 0 gray;
+}
+
+@media screen and (min-width:344){
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  body {
+    background-color: green;
+  }
+  .container {
+    height: 100%;
+    width: 100%;
+    max-width: 475px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    position: relative;
+  }
+  #imgPokedex {
+    position: absolute;
+    width: 100%;
+    max-width: 300px;
+    bottom: 5%;
+    left: 0%;
+  }
+  main {
+    width: 100%;
+    height: 100%;
+  }
+  #imgPokemon {
+    top: 35%;
+    left: 30%;
+    position: absolute;
+  }
+  .form-busca {
+    position: absolute;
+    top: 51%;
+    left: 0%;
+    width: 100%;
+  }
+  #inputText {
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: -3px 4px 0 gray;
+  }
+  .pokemon-data1 {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+  }
+  .pokemon-data2 {
+    position: absolute;
+    top: 65%;
+    left: 19%;
+  }
+  .bottons {
+    position: absolute;
+    left: 37%;
+    bottom: 12%;
+    display: flex;
+    gap: 15%;
+  
+  }
+  .bottons button{
+    width: 80%;
+    border-radius: 6px;
+    box-shadow: -3px 4px 0 gray;
+  }
+}
